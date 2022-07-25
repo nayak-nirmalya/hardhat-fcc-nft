@@ -45,6 +45,7 @@ module.exports = {
     },
     localhost: {
       chainId: 31337,
+      blockConfirmations: 4,
     },
     kovan: {
       url: KOVAN_RPC_URL,
